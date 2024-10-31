@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'gfazioli/scotty',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '43eb9d0de32bb5e493480757381543f89c43345c',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'eftec/bladeone' => array(
+            'pretty_version' => '4.16',
+            'version' => '4.16.0.0',
+            'reference' => '94570df4cd5e81a1efd0bb25d451bd715d529279',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../eftec/bladeone',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'gfazioli/scotty' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '43eb9d0de32bb5e493480757381543f89c43345c',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wpbones/wpbones' => array(
+            'pretty_version' => 'dev-dev',
+            'version' => 'dev-dev',
+            'reference' => '01e9a3c70dee3c842c3d6fc54d532304487b197a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpbones/wpbones',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

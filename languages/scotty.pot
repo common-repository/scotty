@@ -1,0 +1,607 @@
+# Copyright (C) 2024 Giovambattista Fazioli
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Scotty 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/scotty\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-30T13:44:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: scotty\n"
+
+#. Plugin Name of the plugin
+#: scotty.php
+#: plugin/Providers/DashboardWidget.php:23
+msgid "Scotty"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: scotty.php
+msgid "https://scotty-plugin.vercel.app"
+msgstr ""
+
+#. Description of the plugin
+#: scotty.php
+msgid "Your WordPress engineer for superior site maintenance and optimization."
+msgstr ""
+
+#. Author of the plugin
+#: scotty.php
+msgid "Giovambattista Fazioli"
+msgstr ""
+
+#. Author URI of the plugin
+#: scotty.php
+msgid "http://undolog.com"
+msgstr ""
+
+#: config/menus.php:15
+#: public/apps/app.js:1
+msgid "Trash"
+msgstr ""
+
+#: config/menus.php:16
+#: public/apps/app.js:1
+msgid "Duplicates"
+msgstr ""
+
+#: config/menus.php:17
+#: public/apps/app.js:1
+msgid "Database"
+msgstr ""
+
+#: config/menus.php:18
+#: public/apps/app.js:1
+msgid "Cron"
+msgstr ""
+
+#: config/menus.php:19
+#: public/apps/app.js:1
+msgid "Shortcode"
+msgstr ""
+
+#: config/menus.php:20
+#: public/apps/app.js:1
+msgid "WordPress"
+msgstr ""
+
+#: config/menus.php:46
+#: config/menus.php:47
+#: public/apps/app.js:1
+msgid "Overview"
+msgstr ""
+
+#: plugin/Ajax/DuplicatesAjaxServiceProvider.php:39
+msgid "PostMeta"
+msgstr ""
+
+#: plugin/Ajax/DuplicatesAjaxServiceProvider.php:40
+msgid "CommentMeta"
+msgstr ""
+
+#: plugin/Ajax/DuplicatesAjaxServiceProvider.php:41
+msgid "UserMeta"
+msgstr ""
+
+#: plugin/Ajax/DuplicatesAjaxServiceProvider.php:42
+msgid "TermMeta"
+msgstr ""
+
+#: plugin/Ajax/OverviewAjaxServiceProvider.php:78
+msgid "Transients"
+msgstr ""
+
+#: plugin/Ajax/OverviewAjaxServiceProvider.php:84
+msgid "Others"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:60
+msgid "Revisions"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:65
+msgid "Auto Draft"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:70
+msgid "Deleted Posts"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:75
+msgid "Unapproved Comments"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:80
+msgid "Spam Comments"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:85
+msgid "Deleted Comments"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:90
+msgid "Orphan Comment Meta"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:95
+msgid "Transient Options"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:100
+msgid "Orphan Post Meta"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:105
+msgid "Orphan User Meta"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:110
+msgid "Orphan Term Meta"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:115
+msgid "Orphan Term Relationships"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:120
+msgid "Unused Terms"
+msgstr ""
+
+#: plugin/Ajax/TrashAjaxServiceProvider.php:125
+msgid "Oembed Post Meta"
+msgstr ""
+
+#: plugin/Settings/WordPress/General/ExternalAccess.php:34
+msgid "You are not currently logged in."
+msgstr ""
+
+#: plugin/Settings/WordPress/General/ExternalAccess.php:53
+msgid "XML-RPC services are disabled on this site."
+msgstr ""
+
+#: plugin/Settings/WordPress/General/Security.php:35
+msgid "Login error"
+msgstr ""
+
+#: plugin/Traits/CommentsTrait.php:20
+msgid "Unapproved"
+msgstr ""
+
+#: plugin/Traits/CommentsTrait.php:21
+msgid "Approved"
+msgstr ""
+
+#: plugin/Traits/CronTrait.php:55
+msgid "One-time"
+msgstr ""
+
+#: plugin/Traits/CronTrait.php:83
+msgid ""
+"Error!!\n"
+"\n"
+"Params mismatch!"
+msgstr ""
+
+#: plugin/Traits/CronTrait.php:106
+msgid ""
+"Warning!!\n"
+"\n"
+"An error occur when try to get the cron! Cron not found!"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Get help on WordPress.org"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Safely Trash"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Delete the unnecessary records from your database"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Check duplicates"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Check and analyze your database for duplicate records"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Database Sneak Peak"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Have a look at the database tables and optimize them"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Cron jobs"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Cron jobs to run the tasks at regular intervals"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Have a look at the shortcode and use them in your posts"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "WordPress Advanced"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Settings for advanced WordPress features"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Features"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Check the Overview to get started"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Get started"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Cleaning"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Optimization"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "System"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Settings"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Executed cron"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Bulk Actions"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Execute cron"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Refresh"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Optimizing table"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Resetting auto increment for table"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Reset Auto Increment"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Optimize Table"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Optimize"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Please confirm your action"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Warning!"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "The item selected will be permanently deleted. This action cannot be undone."
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Are you sure you want to continue?"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Cleanup"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Error"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Not implemented"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Apply"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Show only items with"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Items"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Count"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Delete"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "All"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "will be permanently deleted."
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "This action cannot be undone."
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Confirm"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Cancel"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "items have been deleted successfully."
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "An error occurred while deleting the"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "records. Error:"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Totals"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Error:"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "WordPress size"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Themes size"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Plugins size"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Uploads size"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Database size"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Disk"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Potential error"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "The calculation of the disk space occupied is taking longer than expected. You may need to refresh the page to view the updated data. We are using the WordPress function used in Site Health to calculate the disk space occupied. This function can be slow on sites with many files."
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "We will retry the calculation in 15 seconds for a maximum of 3 times."
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Posts by status"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Posts by type"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Comments"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Users"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Options"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Options reset"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Options have been reset to default"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Reset to default"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Appearance"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the footer credit"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the footer credit in the admin dashboard"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the footer version"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the footer version in the admin dashboard"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the Welcome panel"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the Welcome panel in the admin dashboard"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Sidebar Menu"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display Dashboard"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the Dashboard item in the sidebar menu"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display Posts"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the Posts item in the sidebar menu"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "External access"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "WP REST API"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "WordPress REST API is a way to interact with WordPress sites using HTTP requests, enabling access to content and functionalities programmatically"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "XML-RPC"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "XML-RPC is a standard way to interact with WordPress sites using HTTP requests, enabling access to content and functionalities programmatically"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Security"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display WordPress version"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the <head> section in the theme generates the meta tag indicating the WordPress version for identification purposes"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display Login error"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the login error message on the login page. This can be used by attackers to identify valid usernames"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display Authentication with email"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Display the authentication email filed on the login page. This can be used by attackers to identify valid usernames"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Theme"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Set the excerpt length for all post types"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "This will limit the number of words shown in the excerpt."
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Remove the Admin bar for all users"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "This will remove the Admin bar for all users."
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Posts"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Set the number of revisions to keep for all post types"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "This will limit the number of revisions saved for each post type."
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "General"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Admin"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Writing"
+msgstr ""
+
+#: public/apps/app.js:1
+msgid "Reading"
+msgstr ""
